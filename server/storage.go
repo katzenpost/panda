@@ -165,6 +165,7 @@ func (s *PandaStorage) load(tx *bolt.Tx, postsBucket *bolt.Bucket) error {
 		}
 		tagArray := [common.PandaTagLength]byte{}
 		copy(tagArray[:], tag)
+		// XXX:
 		s.postings.Store(tagArray, posting)
 	}
 	return nil
@@ -297,6 +298,9 @@ func (s *PandaStorage) Shutdown() {
 // such that it is referenced by the given tag.
 func (s *PandaStorage) Put(tag *[common.PandaTagLength]byte, posting *PandaPosting) error {
 	posting.Dirty = true
+	if tag == nil || posting == nil {
+		panic("wtf")
+	}
 	_, loaded := s.postings.LoadOrStore(*tag, posting)
 	if loaded {
 		return errors.New("PandaStorage Put failure: tag already present")
@@ -321,6 +325,9 @@ func (s *PandaStorage) Get(tag *[common.PandaTagLength]byte) (*PandaPosting, err
 // Replace replaces the stored posting.
 func (s *PandaStorage) Replace(tag *[common.PandaTagLength]byte, posting *PandaPosting) error {
 	posting.Dirty = true
+	if tag == nil || posting == nil {
+		panic("wtf")
+	}
 	s.postings.Store(*tag, posting)
 	return nil
 }
