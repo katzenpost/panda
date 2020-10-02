@@ -332,12 +332,13 @@ func (s *PandaStorage) Vacuum() error {
 		tag, ok := rawTag.([common.PandaTagLength]byte)
 		if !ok {
 			err = errors.New("Vacuum failure, invalid tag retreived from sync.Map")
-			panic(tag)
+
+			panic(rawTag)
 			return false
 		}
 		posting, ok := rawPosting.(*PandaPosting)
 		if !ok {
-			panic(posting)
+			panic(rawPosting)
 			err = errors.New("Vacuum failure, invalid tag retreived from sync.Map")
 			return false
 		}
