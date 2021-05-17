@@ -80,6 +80,8 @@ github.com/katzenpost/client v0.0.22-0.20210226022911-83f0cac10304 h1:QQfe8uma0b
 github.com/katzenpost/client v0.0.22-0.20210226022911-83f0cac10304/go.mod h1:UkplLEjmwU5iLvtAwtyxBHsVXMea16Fbx67o09hSWt0=
 github.com/katzenpost/client v0.0.24 h1:WSRzFnfBQd2D1hwBX57jrzH7WQc36XZa8p85dfmqU5M=
 github.com/katzenpost/client v0.0.24/go.mod h1:NE9AuOJ7BVSlPjLImCjWdnCgtnwBPh2DRLOUamkm3B4=
+github.com/katzenpost/client v0.0.27 h1:A7o4VUYseE5VFTCIzjW1NaOKEnIDNCeO81Sc6LrPp5k=
+github.com/katzenpost/client v0.0.27/go.mod h1:NE9AuOJ7BVSlPjLImCjWdnCgtnwBPh2DRLOUamkm3B4=
 github.com/katzenpost/core v0.0.11 h1:WU1C35IumVhRkrEvVgqtfvxWSfxbuLO5neXIKKEdDNU=
 github.com/katzenpost/core v0.0.11/go.mod h1:z8uIYZj4iaLCqXLcoY8nz/YBqVi/s1RnZkHFAd797SQ=
 github.com/katzenpost/core v0.0.12 h1:rT4aKCyITD7GvEhEL1P8i8atr1/W3XvZYPfnQN+kLpQ=
@@ -112,6 +114,8 @@ github.com/katzenpost/server v0.0.18-0.20210226021137-4a0b16e51420 h1:PRNBdEZcVd
 github.com/katzenpost/server v0.0.18-0.20210226021137-4a0b16e51420/go.mod h1:0lON0uLMwQwmm/vNd7H30Y2hG4J192pmjMZZihtDxwU=
 github.com/katzenpost/server v0.0.18 h1:7nk375Kjyb4tSE43T+dBmZ20ZEDeIN6YZt/RJyGr62I=
 github.com/katzenpost/server v0.0.18/go.mod h1:sLE/gTMzcuw+ITFwRNSuHIMf7hVgPruyBC6A1sHWXFs=
+github.com/katzenpost/server v0.0.20 h1:nabITXQ9SuygIVwZ8CEciwPDTIe24Bq9rwuLRepVK/Y=
+github.com/katzenpost/server v0.0.20/go.mod h1:sLE/gTMzcuw+ITFwRNSuHIMf7hVgPruyBC6A1sHWXFs=
 github.com/konsorten/go-windows-terminal-sequences v1.0.1/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
 github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515/go.mod h1:+0opPa2QZZtGFBFZlji/RkVcI2GknAs/DXo4wKdlNEc=
 github.com/kr/pretty v0.1.0 h1:L/CwN0zerZDmRFUapSPitk6f+Q3+0za1rQkzVuMiMFI=
