@@ -12,32 +12,32 @@ require (
 	github.com/katzenpost/server v0.0.21
 	github.com/stretchr/testify v1.4.0
 	github.com/ugorji/go/codec v1.1.7
-	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad
+	golang.org/x/crypto v0.1.0
 	google.golang.org/protobuf v1.26.0
 	gopkg.in/op/go-logging.v1 v1.0.0-20160211212156-b2cb9fa56473
 )
 
 retract (
-v0.0.0
-v0.0.1
-v0.0.10
-v0.0.11
-v0.0.12
-v0.0.13
-v0.0.14
-v0.0.15
-v0.0.16
-v0.0.17
-v0.0.18
-v0.0.19
-v0.0.2
-v0.0.20
-v0.0.21
-v0.0.3
-v0.0.4
-v0.0.5
-v0.0.6
-v0.0.7
-v0.0.8
-v0.0.9  
+	v0.0.21
+	v0.0.20
+	v0.0.19
+	v0.0.18
+	v0.0.17
+	v0.0.16
+	v0.0.15
+	v0.0.14
+	v0.0.13
+	v0.0.12
+	v0.0.11
+	v0.0.10
+	v0.0.9
+	v0.0.8
+	v0.0.7
+	v0.0.6
+	v0.0.5
+	v0.0.4
+	v0.0.3
+	v0.0.2
+	v0.0.1
+	v0.0.0
 )
